@@ -28,6 +28,9 @@ namespace exercicio_classe_estudante
         public DateTime DataNascimento{
             get {return _dataNascimento;}
         }
+        public bool Status {
+            get {return _status;}
+        }
 
         public Estudante (int id, string nome, string exameMedico, DateTime dataNascimento){
             _id = id;
