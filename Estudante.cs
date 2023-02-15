@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace exercicio_classe_estudante
 {
     public class Estudante
@@ -13,26 +8,32 @@ namespace exercicio_classe_estudante
         private DateTime _dataNascimento;
         private bool _status;
 
-        public int Id {
-            get {return _id;}
+        public int Id
+        {
+            get { return _id; }
         }
 
-        public string Nome {
-            get {return _nome;}
+        public string Nome
+        {
+            get { return _nome; }
         }
 
-        public string ExameMedico {
-            get {return _exameMedico;}
+        public string ExameMedico
+        {
+            get { return _exameMedico; }
         }
 
-        public DateTime DataNascimento{
-            get {return _dataNascimento;}
+        public DateTime DataNascimento
+        {
+            get { return _dataNascimento; }
         }
-        public bool Status {
-            get {return _status;}
+        public bool Status
+        {
+            get { return _status; }
         }
 
-        public Estudante (int id, string nome, string exameMedico, DateTime dataNascimento){
+        public Estudante(int id, string nome, string exameMedico, DateTime dataNascimento)
+        {
             _id = id;
             _nome = nome;
             _exameMedico = exameMedico;
@@ -40,9 +41,5 @@ namespace exercicio_classe_estudante
             _status = true;
         }
 
-
-
-
-        
     }
 }
