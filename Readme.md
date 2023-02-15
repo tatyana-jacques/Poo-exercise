@@ -1,1 +1,1 @@
-<p>Exercício realizado durante o Módulo 02 do curso DevInHouse.</p>
+<p>POO exercise developed during Senai's course DEVinHouse(2022).</p>
